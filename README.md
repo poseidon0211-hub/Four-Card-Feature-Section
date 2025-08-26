@@ -50,8 +50,8 @@ Users should be able to:
 
 - I solved this by using a nested Flexbox approach:
 
-1.  A main container (`.cards-section`) was set to `display: flex` with `flex-wrap: wrap` to handle the cards.
-2.  The two middle cards were wrapped in a separate container (`.card-column`), which was also a Flexbox container set to `flex-direction: column`.
+   i.  A main container (`.cards-section`) was set to `display: flex` with `flex-wrap: wrap` to handle the cards.
+   ii.  The two middle cards were wrapped in a separate container (`.card-column`), which was also a Flexbox container set to `flex-direction: column`.
 
 - This allowed me to control the stacking of the middle cards independently from the side cards.
 
